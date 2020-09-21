@@ -1,0 +1,133 @@
+F5-Run
+F7-debug
+F12-Stop
+
+cntrl+d=Disable
+cntrl+e=Enable
+Cntrl+k--For creating the variable
+Cntrl+space-For selecting the variable
+Cnrl+M---For creating the argument
+Cntrl+P-Manage Packages
+Cntrl+S-for saving the data
+Cntrl+shift +S-for saving the all workflow
+
+
+
+Hardcoded --Always with doble quote-----"   " 
+
+variable--  --Always without doble quote --- data
+
+
+
+Date and time
+
+Now.tostring-current time 
+Now.toshortdate-today date
+
+Now.adddays(+1)-tomorrow--tomorrow date and time
+now.adddays(-1)-yesterdays
+
+
+
+"c:/pawan"---Pawan-----For one folder
+"C:\Pawan"+"\"+"testing"-For subfolder
+
+"C:\"+Now.ToLongDateString------------ C:\Monday, 22 July 2019
+"C:\Pawan"+Now.ToLongDateString------C:\PawanMonday, 22 July 2019
+
+"C:\Pawan"+"/"+Now.ToLongDateString-------------C:\Pawan\07
+"C:\PawanNaveen"+"/"+Now.Day.ToString----------C:\PawanNaveen\22
+
+Notepad
+"client"+" "+counternotepad+DateTime.Now.ToString("dd-MM-yyyy")
+"Employee_Data" + " " + counter.ToString + " " + DateTime.Now.ToString("dd-MM-yyyy")
+
+DateTime.Now.ToString("dd-MM-yyyy")
+
+DateTime.Now.ToLongDateString
+
+
+
+
+6342489581
+
+Types of variable 
+1.String ---"uipath"
+2.Int---------5-----------------number without quote 
+3.Double-----5.4 -----------number without quote --------System.double
+
+
+Type of project\workflow\type of process
+i)Sequence- For linear and small project ,  start not available, Flow decision and Flow switch activity not possible---------if and switch possible ----inside sequence
+  Nested Switch -switch inside switch is called nested switch, flowchart also possible inside switch.
+
+*  State and Final state not possible inside sequence but inside state machine posible
+
+
+
+ii)Flowchart -For large , complex and small project possible , if & switch 
+
+
+Activity-whatever action you want to perform
+
+1.Message box- For displaying the data on console 
+2. Write line -For displaying the data in output panel
+3. Assign -For assigning the value 
+4.Multiple Assign-For using more assign
+5.Type secure text-For credential password--always take secure string 
+6.Input Dialog box-For taking the data from user----------cntrl+k--- string 
+7.Kill process-For killing any type of process one 0r one lakh------it will not save 
+8.open browser-Launching the browser
+9. Maximize window--For Maximizing window
+10. Close Tab-For closing the same browser 
+11.Open Application- For launching the desktop application
+12. Close Application -For closing the same desktop Application
+13. Delay -----for doing halt or pause----00:00:02
+14.Type into-For typing any where in web based and desktop application
+15.Request credential-For requesting the credential from client
+16.Get Secure Credential- For taking the  credential from window-Manage window 
+17.Select item-For drop down
+18.Click- For clicking anywhere
+19.Get text -For getting the text data
+20.Delay -For pause or hault
+21. Navigate T0-For navigating one browser to another browser
+22.Attach window -For attaching the same window -For desktop application attach same screen
+23.Attach Browser-For attaching the same browser
+24. Flow decision- For true ad false
+25 if ----
+26.Read Text file -For reading the text file 
+27.Write text file -For writing the text file 
+28. Create folder- For creating the folder------"c:\septwentydata"  C:\
+29.Delete -For deleting the data
+30. Copy--For copy  the  data 
+31.Move -For moving the file
+32.Element exist
+33.Path exist 
+
+
+
+C:\Sender
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

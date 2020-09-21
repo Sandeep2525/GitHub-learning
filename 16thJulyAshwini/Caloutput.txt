@@ -1,0 +1,1 @@
+Addition = 250 &   Multiplication= 10000 & Substraction= 150
